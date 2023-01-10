@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #D3D3D3;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.sol {
+    position: absolute;
+    bottom: 80%;
+    right: 0%;
+    width: 10%;
+    height: 20%;
+    user-select: none;
+    animation: soll 5s linear infinite;
+}
+
+
+@keyframes soll{
+    0%{
+        right: 0%;
+    }
+    50%{
+        right: 90%;
+        transform: scaleX(-1);
+    }
+}
